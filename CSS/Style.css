@@ -1,5 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-.novbar{
+ .novbar1{
     background-color: rgb(169, 186, 197);
 }
 
@@ -8,23 +12,18 @@
     height: 250px;
     width: 250px;
 }
+.ico-social{
+    height:50px ;
+    width: 50px;
+   margin-top: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 0 5px 1px black;
+}
 .about-me{
     font-size:20px ;
     margin-top: 15px;
-}
-.ico-social-container{
-     background-color: white;
-     padding: 10px;
-     border-radius: 50%;
-     box-shadow: 0px 0px 5px #000;
-    display: block;
-    height: 70px;
-    width: 70px;
-
-}
-.ico-social{
-     height:50px ;
-     width: 50px;
+    text-align: justify;
 }
 .project-container{
     box-shadow: 5px 5px 8px rgb(68, 64, 64);
@@ -32,11 +31,8 @@
     border-radius: 20px;
     margin: 30px;
     margin-right: 50px;
+    margin: 0;
     border: 1px dashed black;
     
-}
-.container{
-    
-    box-shadow: 0px 3px 0px black;
 }
 
